@@ -39,6 +39,13 @@ end
 
 def checkout(cart, coupons) #cart = [{:item=>"BEETS", :price=>2.5, :clearance=>false}], coupons = []
   #binding.pry
+  cart.each do |contents|
+    consolidate(contents)
+    apply_coupons(contents, coupons)
+    apply_clearance(contents)
+  end
+end
+    
   # Consult README for inputs and outputs
   #
   # This method should call
