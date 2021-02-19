@@ -37,8 +37,8 @@ def apply_clearance(cart)
 end
 
 
-def checkout(cart, coupons)
-  binding.pry
+def checkout(cart, coupons) #cart = [{:item=>"BEETS", :price=>2.5, :clearance=>false}], coupons = []
+  #binding.pry
   # Consult README for inputs and outputs
   #
   # This method should call
