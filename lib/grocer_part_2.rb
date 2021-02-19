@@ -46,7 +46,7 @@ def checkout(cart, coupons) #cart = [{:item=>"BEETS", :price=>2.5, :clearance=>f
 
   clearance_cart.each do |contents|
     total += (contents[:price] * contents[:count])
-    binding.pry
+    #binding.pry
   end
 
   if total > 100
