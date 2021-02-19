@@ -50,7 +50,9 @@ def checkout(cart, coupons) #cart = [{:item=>"BEETS", :price=>2.5, :clearance=>f
     total = (total * 0.9).round(2)
   else
     total
+  end
 end
+
 
 
 
