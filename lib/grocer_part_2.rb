@@ -46,6 +46,8 @@ def checkout(cart, coupons) #cart = [{:item=>"BEETS", :price=>2.5, :clearance=>f
   end
 end
 
+
+
   # Consult README for inputs and outputs
   #
   # This method should call
@@ -55,4 +57,3 @@ end
   #
   # BEFORE it begins the work of calculating the total (or else you might have
   # some irritated customers
-end
