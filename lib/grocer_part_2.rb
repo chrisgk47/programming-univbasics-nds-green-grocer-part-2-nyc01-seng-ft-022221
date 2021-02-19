@@ -45,7 +45,7 @@ def checkout(cart, coupons) #cart = [{:item=>"BEETS", :price=>2.5, :clearance=>f
     apply_clearance(contents)
   end
 end
-    
+
   # Consult README for inputs and outputs
   #
   # This method should call
